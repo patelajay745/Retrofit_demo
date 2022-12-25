@@ -1,4 +1,4 @@
-package com.ajay.example.retrofit_demo
+package com.ajay.example.retrofit_demo.album
 
 import com.google.gson.GsonBuilder
 import okhttp3.OkHttpClient
@@ -6,7 +6,7 @@ import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
-class RetrofitInstance {
+class RetrofitInstance2 {
 
 
 

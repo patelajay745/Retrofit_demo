@@ -1,4 +1,4 @@
-package com.ajay.example.retrofit_demo
+package com.ajay.example.retrofit_demo.album
 
 import retrofit2.Response
 import retrofit2.http.Body
@@ -19,5 +19,5 @@ interface AlbumService {
     suspend fun getAlbum(@Path(value="id")albumId:Int):Response<AlbumsItem>
 
     @POST("/albums")
-    suspend fun uploadAlbum(@Body album:AlbumsItem):Response<AlbumsItem>
+    suspend fun uploadAlbum(@Body album: AlbumsItem):Response<AlbumsItem>
 }

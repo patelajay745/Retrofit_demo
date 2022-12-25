@@ -1,4 +1,4 @@
-package com.ajay.example.retrofit_demo
+package com.ajay.example.retrofit_demo.album
 
 
 data class AlbumsItem(
